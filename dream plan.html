@@ -1,0 +1,71 @@
+<form>
+  <center>
+  <h2>🌍 Plan Your Dream Travel</h2>
+  </center>
+  <table>
+    <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" placeholder="Enter your name" required></td>
+    </tr>
+    <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" placeholder="abc12@example.com" required></td>
+    </tr>
+    <tr>
+        <td><label for="destination">Destination:</label></td>
+        <td><input type="text" id="destination" placeholder="e.g., Paris, Europe" required></td>
+    </tr>
+    <tr>
+        <td><label for="date">Travel Date:</label></td>
+        <td><input type="date" id="date"></td>
+    </tr>
+    <tr>
+        <td><label>Travel Mode:</label></td>
+        <td>
+          <input type="radio" name="mode">✈️ Air
+          <input type="radio" name="mode">🚆 Train
+          <input type="radio" name="mode">🚌 Bus
+        </td>
+    </tr>
+    <tr>
+        <td><label for="style">Travel Style:</label></td>
+        <td>
+          <select id="style">
+            <option>Adventure</option>
+            <option>Relaxing</option>
+            <option>Cultural</option>
+            <option>Romantic</option>
+          </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label>Accommodation:</label></td>
+        <td>
+          <input type="radio" name="stay">🏨 Hotel
+          <input type="radio" name="stay">🏕️ Camping
+          <input type="radio" name="stay">🛏️ Hostel
+        </td>
+    </tr>
+    <tr>
+        <td><label>Food Preferences:</label></td>
+        <td>
+          <input type="checkbox">Vegetarian
+          <input type="checkbox">Non-Vegetarian
+          <input type="checkbox">Vegan
+        </td>
+    </tr>
+    <tr>
+        <td><label for="budget">Budget ($):</label></td>
+        <td><input type="range" id="budget" min="100" max="5000"></td>
+    </tr>
+    <tr>
+        <td><label for="notes">Special Requests:</label></td>
+        <td><textarea id="notes" rows="3" placeholder="Tell us what you'd love..."></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align:center;">
+            <button type="submit">Submit Plan</button>
+        </td>
+    </tr>
+  </table>
+</form>
